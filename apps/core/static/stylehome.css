@@ -1,0 +1,46 @@
+*{
+    font-family: "Lucida Sans Typewriter", Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(8, 10, 14);
+}
+
+.footer{
+    background-color: rgb(59, 59, 59);
+    background-image: url("sky.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.footer h2{
+    color: rgb(207, 205, 205);
+}
+
+.navbar-item{
+    color: rgb(207, 205, 205);
+}
+
+
+#follow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#follow img{
+    width: 50px;
+    height: 50px;
+    padding: 2%;
+    border: 5px solid gainsboro;
+    border-radius: 50%;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+#follow img:hover{
+    opacity: 1.0;
+    box-shadow: 5px 5px 10px rgb(221, 221, 221);
+}
+
