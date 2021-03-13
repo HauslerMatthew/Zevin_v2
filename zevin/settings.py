@@ -10,8 +10,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
-STRIPE_API_KEY_PUBLISHABLE = "pk_test_51IFoeYIMiJ4aPh2Lqf1AOps4svBLC8KnlcWfHMfmMJNI93dNLd8OQSHEnhOawzGrtZlVay6NIsPK82Qpx1oU2FOh006SO4IiKU"
-STRIPE_API_KEY_HIDDEN = "sk_test_51IFoeYIMiJ4aPh2LYK0UAgeJSSyHWqvJwwo483nw5agtvAQwMeucOYLLrXuPZPIjIJwv2GJ2k6SU7WveBOctwRY700pXQBDCPA"
+STRIPE_API_KEY_PUBLISHABLE = "pk_test_"
+STRIPE_API_KEY_HIDDEN = "sk_test_"
 
 import os
 
