@@ -4,15 +4,15 @@
 
 {% block content %}
     <div id='productapp'>
-        <img src="/{{ product.image }}">
-        <h1 class="title">{{ product.title }}</h1>
-        <h2 class="subtitle">${{ product.price }}</h2>
+        <img src="/{{ product.image }}" height="35%" width="35%">
+        <h3 class="subtitle mt-5">{{ product.title }}</h3>
+        <p class="subtitle">${{ product.price }}</p>
 
         {% if product.description %}
             <p>{{product.description}}</p>
         {% endif %}
 
-        <button @click='addToCart({{ product.id }})'>Add to cart</button>
+        <button @click='addToCart({{ product.id }})' class="mt-5">Add to cart</button>
     </div>
 {% endblock %}
 
