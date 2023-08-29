@@ -1,5 +1,5 @@
 *{
-    font-family: "Lucida Sans Typewriter", Tahoma, sans-serif;
+    font-family: 'Press Start 2P', cursive; /* "Lucida Sans Typewriter", Tahoma, sans-serif; */
 }
 
 body{
@@ -44,4 +44,6 @@ body{
     box-shadow: 5px 5px 10px rgb(221, 221, 221);
 }
 
-
+.mt-5{
+    margin-top: 25px;
+}
